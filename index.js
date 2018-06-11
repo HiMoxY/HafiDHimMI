@@ -1,6 +1,6 @@
 const Eris = require("eris");
 var bot = new Eris("process.env.TOKEN");
-var id = "455552914686083073";
+var id = "YOUR ID";
 //** لاتعدل على شي تحت ذا **//
 bot.on("ready", () => {
 onstart();
