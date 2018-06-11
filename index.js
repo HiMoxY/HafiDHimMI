@@ -1,5 +1,5 @@
 const Eris = require("eris");
-var bot = new Eris("NDU1NTQ5MjUwMzMyMjYyNDAw.Df9m0A.OSQ3Liqqn8YuHTbh1y_jJoBLf74");
+var bot = new Eris("process.env.TOKEN");
 var id = "455552914686083073";
 //** لاتعدل على شي تحت ذا **//
 bot.on("ready", () => {
